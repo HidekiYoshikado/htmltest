@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <head><meta charset="utf-8"></head>
-  <body>
-    <form method="POST" action="#">
-      <table>
-        <tr>
-          <th>名前</th>
-          <td><input name="name" type="txt"></td>
-        </tr>
-        <tr>
-          <th>メールアドレス</th>
-          <td><input name="mailadress" type="txt"></td>
-        </tr>
-        <tr>
-          <th>パスワード</th>
-          <td><input name="password" type="txt"></td>
-        </tr>
-        <tr>
-          <td><input type="submit" value="送信"></td>
-        </tr>
-      </table>
-    </form>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>順番待ち番号札</title>
+</head>
+<body>
+  <div class="number-card" id="numberCard">1</div>
+  <button onclick="nextNumber()">次の番号</button>
+
+  <script src="script.js"></script>
+</body>
 </html>
